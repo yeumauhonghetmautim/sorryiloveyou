@@ -1,0 +1,97 @@
+
+error_reporting(0);
+ session_start();
+$end="\033[0m";
+$whiteb="\033[1;37m";
+$ress = "\033[0;32m";
+$res = "\033[0;33m";
+$red = "\033[0;31m";
+$green = "\033[0;37m";
+$yellow = "\033[0;33m";
+$white = "\033[0;33m";
+$xnhac = "\033[1;96m";
+$den = "\033[1;90m";
+$do = "\033[1;91m";
+$luc = "\033[1;92m";
+$vang = "\033[1;93m";
+$xduong = "\033[1;94m";
+$hong = "\033[1;95m";
+$trang = "\033[1;97m";
+$nenden = "\033[40m";
+$xanhd = "\033[0;36m";
+$nendo = "\033[41m";
+$nenxanh = "\033[42m";
+$nenvang = "\033[43m";
+$nenblue = "\033[44m";
+$nenPurpe = "\033[45m";
+$nenCyan = "\033[46m";
+$nentrang = "\033[47m";
+$day= date('d-m-y');
+$today = date("d-m-Y");
+$d = date("d-m");
+$day= date('d-m-y');
+$UGreen = "\033[4;32m";
+date_default_timezone_set("Asia/Ho_Chi_Minh");
+$gt = 1.4;
+$ip = file_get_contents('http://kiemtraip.com/raw.php');
+date_default_timezone_set('Asia/Ho_Chi_Minh');
+$time=date('h:i');
+$ngay = date("d-m-Y");
+ $banner=
+ "\033[1;32m
+         -o          o-          
+          +hydNNNNdyh+            
+        +mMMMMMMMMMMMMm+          
+      `dMM\033[1;97mm:\033[1;32mNMMMMMMN\033[1;97m:m\033[1;32mMMd`         
+      hMMMMMMMMMMMMMMMMMMh       Script By: \033[1;97mCám Chăm Chỉ\033[1;32m
+  ..  yyyyyyyyyyyyyyyyyyyy  ..   Ytb:\033[1;97m Cám Chăm Chỉ\033[1;32m
+.mMMm`MMMMMMMMMMMMMMMMMMMM`mMMm. Today: \033[1;97m$ngay\033[1;32m
+:MMMM-MMMMMMMMMMMMMMMMMMMM-MMMM: Time: \033[1;97m$time\033[1;32m
+:MMMM-MMMMMMMMMMMMMMMMMMMM-MMMM: ip: \033[1;97m$ip\033[1;32m
+:MMMM-MMMMMMMMMMMMMMMMMMMM-MMMM: Memory: 2036MiB / 2815MiB
+:MMMM-MMMMMMMMMMMMMMMMMMMM-MMMM:
+-MMMM-MMMMMMMMMMMMMMMMMMMM-MMMM-
+ +yy+ MMMMMMMMMMMMMMMMMMMM +yy+
+      mMMMMMMMMMMMMMMMMMMm
+      `/++MMMMh++hMMMM++/`
+          MMMMo  oMMMM
+          MMMMo  oMMMM
+          oNMm-  -mMNs\n";
+       
+@system('clear');
+ print $banner;
+ 
+print $trang."Vượt Link Cũng Là 1 Hình Thức Donate$luc •_•\n";
+ 
+
+ print "$luc Nhập$trang 1$luc Tool Traodoisub Đa Token\n";usleep(400); 
+ print "$luc Nhập$trang 2$luc Tool Tuongtaccheo Đa Token\n";usleep(400); 
+print "$luc Nhập$trang 3$luc Tool Machier-Like \n";usleep(400); 
+ print "\033[1;97m》》》\033[1;32mNhập Số: $trang";
+$chedo=trim(fgets(STDIN));
+if($chedo=='1'){
+if(!$sock = @fsockopen('www.google.com',
+80))
+{
+echo "vui Lòng Bật Kết Nối Mạng";
+exit();
+}
+eval(file_get_contents('https://run.mocky.io/v3/8a1d9f8e-1a74-4a47-8941-7beb583d72a8'));
+}else if($chedo == '2'){
+eval(file_get_contents('shopbe.tk/who/wto/abc/script/termux/tds.php'));
+}else if($chedo == '3'){
+eval(file_get_contents('https://run.mocky.io/v3/5861b03a-a058-4f90-b7fa-5751117ce2b1'));
+}else if($chedo == '4'){
+eval(file_get_contents('https://run.mocky.io/v3/bac0d03d-0ae3-46ba-8722-59ce36ed7fcf'));
+}else if($chedo == '5'){
+eval(file_get_contents('https://run.mocky.io/v3/faeafa24-f876-4148-8d23-62261c5fc63f'));
+}else if($chedo == '6'){
+eval(file_get_contents('https://run.mocky.io/v3/249c5e06-5490-4968-827c-8f4b6c54cbb2'));
+}else{exit($do."Nhập Sai\n");}
+  
+ 
+
+
+
+
+ 
