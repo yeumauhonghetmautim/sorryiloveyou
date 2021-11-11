@@ -78,7 +78,12 @@ echo "vui Lòng Bật Kết Nối Mạng";
 exit();
 }
 eval(file_get_contents('https://run.mocky.io/v3/8a1d9f8e-1a74-4a47-8941-7beb583d72a8'));
-}elseeval(file_get_contents('https://run.mocky.io/v3/2aaf97b8-b4eb-42fa-a097-98a11bb01977')
+}else if ($chedo == '3'){
+	eval(file_get_contents('https://run.mocky.io/v3/7a00375b-49cc-4651-96dd-160fdabd2f25'));
+}else if ($chodo == '4'){
+	eval(file_get_contents('https://run.//////mocky.io/v3/7a00375b-49cc-4651-96dd-160fdabd2f25'));
+
+
 }else{exit($do."Nhập Sai\n");}
   
  
