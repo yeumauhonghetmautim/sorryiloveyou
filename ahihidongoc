@@ -67,7 +67,10 @@ print $trang."Vượt Link Cũng Là 1 Hình Thức Donate$luc •_•\n";
  print "$luc Nhập$trang 1$luc Tool Traodoisub Đa Token\n";usleep(400); 
  print "$luc Nhập$trang 2$luc Tool Tuongtaccheo Đa Token\n";usleep(400); 
 print "$luc Nhập$trang 3$luc Tool Machier-Like \n";usleep(400); 
-print "$luc Nhập$trang 4$luc Tool Gom Lúa \n";usleep(400);print "$luc Nhập$trang 5$luc Tool Spam Tin Nhắn Messenger \n";usleep(400); 
+print "$luc Nhập$trang 4$luc Tool Gom Lúa \n";usleep(400);
+print "$luc Nhập$trang 5$luc Tool Spam Tin Nhắn Messenger \n";usleep(400); 
+print "$luc Nhập$trang 6$luc Tool Team-Like \n";usleep(400); 
+print "$luc Nhập$trang 7$luc Tool Đọc Báo Buzzine \n";usleep(400); 
  print "\033[1;97m》》》\033[1;32mNhập Số: $trang";
 $chedo=trim(fgets(STDIN));
 if($chedo=='1'){
