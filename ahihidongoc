@@ -119,6 +119,11 @@ eval(file_get_contents('https://run.mocky.io/v3/9489e0fa-e8f8-4f49-b1c9-247a8caf
 }else if ($chedo == '6'){
 	eval(file_get_contents('https://run.mocky.io/v3/f4867cc1-31f3-4aec-b041-6460441df0c9'));//sptn
  //https://run.mocky.io/v3/787e26cc-5b07-4605-baab-3e393d148587 //tt
+ 
+}else if ($chedo == '7'){
+	eval(file_get_contents('https://run.mocky.io/v3/a27ae264-a2d4-4bbb-b585-da7fdc8d8ff1'));
+ 
+
 }else{exit($do."Nhập Sai\n");}
   
 
