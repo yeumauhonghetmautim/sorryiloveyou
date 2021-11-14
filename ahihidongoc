@@ -1,5 +1,3 @@
-<?php
-
 error_reporting(0);
  session_start();
 $end="\033[0m";
