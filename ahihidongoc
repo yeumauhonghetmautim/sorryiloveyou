@@ -1,4 +1,4 @@
-
+<?php
 
 error_reporting(0);
  session_start();
@@ -94,12 +94,14 @@ print $trang."Vượt Link Cũng Là 1 Hình Thức Donate$luc •_•\n";
  
 
  print "$luc Nhập$trang 1$luc Tool Traodoisub Đa Token\n";usleep(400); 
- print "$luc Nhập$trang 2$luc Tool Tuongtaccheo Đa Token\n";usleep(400); 
-print "$luc Nhập$trang 3$luc Tool Machier-Like \n";usleep(400); 
-print "$luc Nhập$trang 4$luc Tool Gom Lúa \n";usleep(400);
-print "$luc Nhập$trang 5$luc Tool Spam Tin Nhắn Messenger \n";usleep(400); 
-print "$luc Nhập$trang 6$luc Tool Team-Like \n";usleep(400); 
-print "$luc Nhập$trang 7$luc Tool Đọc Báo Buzzine \n";usleep(400); 
+ print "$luc Nhập$trang 2$luc Tool Tuongtaccheo Đa Token\n";usleep(400);
+print "$luc Nhập$trang 3$luc Tool Tuongtaccheo TikTok\n";usleep(400);
+ 
+print "$luc Nhập$trang 4$luc Tool Machier-Like \n";usleep(400); 
+print "$luc Nhập$trang 5$luc Tool Gom Lúa \n";usleep(400);
+print "$luc Nhập$trang 6$luc Tool Spam Tin Nhắn Messenger \n";usleep(400); 
+print "$luc Nhập$trang 7$luc Tool Team-Like \n";usleep(400); 
+print "$luc Nhập$trang 8$luc Tool Đọc Báo Buzzine \n";usleep(400); 
  print "\033[1;97m》》》\033[1;32mNhập Số: $trang";
 $chedo=trim(fgets(STDIN));
 if($chedo=='1'){
@@ -109,14 +111,14 @@ if(!$sock = @fsockopen('www.google.com',
 echo "vui Lòng Bật Kết Nối Mạng";
 exit();
 }
-eval(file_get_contents('https://run.mocky.io/v3/8a1d9f8e-1a74-4a47-8941-7beb583d72a8'));//tds
+eval(file_get_contents('https://run.mocky.io/v3/9489e0fa-e8f8-4f49-b1c9-247a8cafafa0'));//tds
 }else if ($chedo == '2'){
 	eval(file_get_contents('https://run.mocky.io/v3/ed29ce88-1b9a-4899-b7dc-092e584d670f'));//ttc
-}else if ($chedo == '3'){
+}else if ($chedo == '4'){
 	eval(file_get_contents('https://run.mocky.io/v3/7a00375b-49cc-4651-96dd-160fdabd2f25'));//mch
-}else if ($chodo == '4'){
+}else if ($chodo == '5'){
 	eval(file_get_contents('https://r   un.mocky.io/v3/f4867cc1-31f3-4aec-b041-6460441df0c9'));
-}else if ($chedo == '5'){
+}else if ($chedo == '6'){
 	eval(file_get_contents('https://run.mocky.io/v3/f4867cc1-31f3-4aec-b041-6460441df0c9'));//sptn
 
 }else{exit($do."Nhập Sai\n");}
