@@ -1,4 +1,5 @@
 
+
 error_reporting(0);
  session_start();
 $end="\033[0m";
@@ -60,13 +61,40 @@ $ngay = date("d-m-Y");
        
 @system('clear');
  print $banner;
+ $linktool=file_get_contents("http://".$linkweb."");
+ $linkweb="shopbe.tk";
+$da=date("dMon");
+$da2= $da + 1029 + 4939+919291+1837+1919;
+//echo $da2;
+$key=$_GET["key"];
+$da=date("dMon");
+$da2= $da + 1029 + 4939+919291+1837+1919;
+//echo $da2;
+$ok="https://".$linkweb."/key.php?key=".$da2;
+$long_url = urlencode($ok);
+$api_token = '8302f1a11c38d10410d2a16df3e363ccbcfdc459';
+$api_url = "https://link1s.com/api?api={$api_token}&url={$long_url}";
+$result = @json_decode(file_get_contents($api_url),true);
+$ok=$result["status"];
+if ($ok=="error"){
+	die($ok);
+}else{ echo  $green."\033[1;97m》》》\033[1;32mLink Key Free:".$trang.$result["shortenedUrl"];echo "\n";}
+
  
+echo "\033[1;97m》》》\033[1;32mMua Key Vip Liên Hệ Admin\n";
+echo"\033[1;97m》》》\033[1;32mNHẬP KEY : $trang";
+$kkey = trim(fgets(STDIN));
+if ($kkey == $da2){
+ echo "Keyy Đúng"; 
+} else {
+   echo "$do key Sai";exit;}
+ @system('clear');
+ echo $banner;
 print $trang."Vượt Link Cũng Là 1 Hình Thức Donate$luc •_•\n";
  
 
  print "$luc Nhập$trang 1$luc Tool Traodoisub Đa Token\n";usleep(400); 
  print "$luc Nhập$trang 2$luc Tool Tuongtaccheo Đa Token\n";usleep(400); 
-print "$luc Nhập$trang 2$luc Tool Tuongtaccheo TikTok\n";usleep(400);
 print "$luc Nhập$trang 3$luc Tool Machier-Like \n";usleep(400); 
 print "$luc Nhập$trang 4$luc Tool Gom Lúa \n";usleep(400);
 print "$luc Nhập$trang 5$luc Tool Spam Tin Nhắn Messenger \n";usleep(400); 
@@ -81,10 +109,9 @@ if(!$sock = @fsockopen('www.google.com',
 echo "vui Lòng Bật Kết Nối Mạng";
 exit();
 }
-eval(file_get_contents('https://run.mocky.io/v3/fc517d6b-4b89-4498-83de-a994d190d241'));//tds
+eval(file_get_contents('https://run.mocky.io/v3/8a1d9f8e-1a74-4a47-8941-7beb583d72a8'));//tds
 }else if ($chedo == '2'){
-	eval(file_get_contents('https://run.mocky.io/v3/f7e53c27-9461-41d9-b532-b87cb6e6470a'));//ttc
-
+	eval(file_get_contents('https://run.mocky.io/v3/ed29ce88-1b9a-4899-b7dc-092e584d670f'));//ttc
 }else if ($chedo == '3'){
 	eval(file_get_contents('https://run.mocky.io/v3/7a00375b-49cc-4651-96dd-160fdabd2f25'));//mch
 }else if ($chodo == '4'){
