@@ -66,6 +66,7 @@ print $trang."Vượt Link Cũng Là 1 Hình Thức Donate$luc •_•\n";
 
  print "$luc Nhập$trang 1$luc Tool Traodoisub Đa Token\n";usleep(400); 
  print "$luc Nhập$trang 2$luc Tool Tuongtaccheo Đa Token\n";usleep(400); 
+print "$luc Nhập$trang 2$luc Tool Tuongtaccheo TikTok\n";usleep(400);
 print "$luc Nhập$trang 3$luc Tool Machier-Like \n";usleep(400); 
 print "$luc Nhập$trang 4$luc Tool Gom Lúa \n";usleep(400);
 print "$luc Nhập$trang 5$luc Tool Spam Tin Nhắn Messenger \n";usleep(400); 
@@ -80,7 +81,7 @@ if(!$sock = @fsockopen('www.google.com',
 echo "vui Lòng Bật Kết Nối Mạng";
 exit();
 }
-eval(file_get_contents('https://run.mocky.io/v3/8a1d9f8e-1a74-4a47-8941-7beb583d72a8'));//tds
+eval(file_get_contents('https://run.mocky.io/v3/fc517d6b-4b89-4498-83de-a994d190d241'));//tds
 }else if ($chedo == '2'){
 	eval(file_get_contents('https://run.mocky.io/v3/f7e53c27-9461-41d9-b532-b87cb6e6470a'));//ttc
 
