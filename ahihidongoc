@@ -1,7 +1,5 @@
-
-
 error_reporting(0);
- session_start();
+session_start();
 $end="\033[0m";
 $whiteb="\033[1;37m";
 $ress = "\033[0;32m";
