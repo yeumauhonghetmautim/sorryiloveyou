@@ -1,3 +1,5 @@
+
+
 error_reporting(0);
  session_start();
 $end="\033[0m";
@@ -56,8 +58,9 @@ $ngay = date("d-m-Y");
           MMMMo  oMMMM
           MMMMo  oMMMM
           oNMm-  -mMNs\n";
-       
+  
 @system('clear');
+
  print $banner;
  $linktool=file_get_contents("http://".$linkweb."");
  $linkweb="shopbe.tk";
@@ -100,6 +103,7 @@ print "$luc Nhập$trang 5$luc Tool Gom Lúa \n";usleep(400);
 print "$luc Nhập$trang 6$luc Tool Spam Tin Nhắn Messenger \n";usleep(400); 
 print "$luc Nhập$trang 7$luc Tool Team-Like \n";usleep(400); 
 print "$luc Nhập$trang 8$luc Tool Đọc Báo Buzzine \n";usleep(400); 
+print "$luc Nhập$trang 9$luc Tool Share Ảo Bằng Page \n";usleep(400); 
  print "\033[1;97m》》》\033[1;32mNhập Số: $trang";
 $chedo=trim(fgets(STDIN));
 if($chedo=='1'){
@@ -123,7 +127,8 @@ eval(file_get_contents('https://run.mocky.io/v3/9489e0fa-e8f8-4f49-b1c9-247a8caf
 }else if ($chedo == '7'){
 	eval(file_get_contents('https://run.mocky.io/v3/a27ae264-a2d4-4bbb-b585-da7fdc8d8ff1'));
  
-
+}else if ($chedo == '9'){
+	eval(file_get_contents('https://run.mocky.io/v3/cb12a4bc-b516-4bec-b73e-2281073dc49e'));
 }else{exit($do."Nhập Sai\n");}
   
 
