@@ -93,7 +93,7 @@ echo $kitu."Nhập Key: \033[1;97m";
 if ($_check =='1'){
   $keyy = file_get_contents("keytoolfreennq$d.txt");
   $vt = 1;
-  echo $kitu."Đang Lấy Key...";
+  echo $kitu."Đang Check Key...";
   sleep(2);
   echo "\r                                         \r";
 }
