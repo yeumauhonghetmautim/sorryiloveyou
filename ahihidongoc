@@ -1,3 +1,4 @@
+
 error_reporting(0);
  session_start();
 $end="\033[0m";
@@ -43,7 +44,7 @@ $ngay = date("d-m-Y");
         +mMMMMMMMMMMMMm+          
       `dMM\033[1;97mm:\033[1;32mNMMMMMMN\033[1;97m:m\033[1;32mMMd`         
       hMMMMMMMMMMMMMMMMMMh       Script By: \033[1;97mCám Chăm Chỉ\033[1;32m
-  ..  yyyyyyyyyyyyyyyyyyyy  ..   Ytb:\033[1;97m Cám Chăm Chỉ\033[1;32m
+  ..  yyyyyyyyyyyyyyyyyyyy  ..    
 .mMMm`MMMMMMMMMMMMMMMMMMMM`mMMm. Today: \033[1;97m$ngay\033[1;32m
 :MMMM-MMMMMMMMMMMMMMMMMMMM-MMMM: Time: \033[1;97m$time\033[1;32m
 :MMMM-MMMMMMMMMMMMMMMMMMMM-MMMM: ip: \033[1;97m$ip\033[1;32m
@@ -114,7 +115,7 @@ if($keyy == ''){
       }
  @system('clear');
  echo $banner;
-print $trang."Vượt Link Cũng Là 1 Hình Thức Donate\n";
+print "\033[1;32mBản Quyền Thuộc : \033[1;97m@Đức\n";
  
 
  print "$luc Nhập$trang 1$luc Tool Traodoisub Đa Token\n";usleep(400); 
@@ -128,6 +129,8 @@ print "$luc Nhập$trang 7$luc Tool Team-Like \n";usleep(400);
 print "$luc Nhập$trang 8$luc Tool Đọc Báo Buzzine \n";usleep(400); 
 print "$luc Nhập$trang 9$luc Tool Share Ảo Bằng Page \n";usleep(400); 
 print "$luc Nhập\033[1;97m10$luc Tool Clipclap \n";usleep(400); 
+ 
+print "$luc Nhập\033[1;97m11$luc Liên Hệ Fb Admin \n";usleep(400); 
  print "\033[1;97m》》》\033[1;32mNhập Số: $trang";
 $chedo=trim(fgets(STDIN));
 if($chedo=='1'){
@@ -156,6 +159,10 @@ eval(file_get_contents('https://run.mocky.io/v3/9489e0fa-e8f8-4f49-b1c9-247a8caf
  
 }else if ($chedo == '10'){
 	eval(file_get_contents('https://run.mocky.io/v3/8e6a921a-7690-4481-a894-b87a5f2173b7'));
+
+}else if ($chedo == '11'){
+ 
+system('xdg-open https://www.facebook.com/profile.php?id=100052163801079');
 
 }else{exit($do."Nhập Sai\n");}
   
