@@ -1,5 +1,4 @@
 
-
 error_reporting(0);
  session_start();
 $end="\033[0m";
@@ -58,40 +57,65 @@ $ngay = date("d-m-Y");
           MMMMo  oMMMM
           MMMMo  oMMMM
           oNMm-  -mMNs\n";
-  
+$kitu="\033[1;97m》》》\033[1;32m";
 @system('clear');
 
  print $banner;
- $linktool=file_get_contents("http://".$linkweb."");
- $linkweb="shopbe.tk";
-$da=date("dMon");
-$da2= $da + 1029 + 4939+919291+1837+1919;
-//echo $da2;
-$key=$_GET["key"];
-$da=date("dMon");
-$da2= $da + 1029 + 4939+919291+1837+1919;
-//echo $da2;
-$ok="https://".$linkweb."/key.php?key=".$da2;
-$long_url = urlencode($ok);
+$key = "camchamchi".substr(md5($today), 0 , 8);
+$long_url = "https://thaihao.tk/keytoolfree.php?key=$key";
 $api_token = '8302f1a11c38d10410d2a16df3e363ccbcfdc459';
 $api_url = "https://link1s.com/api?api={$api_token}&url={$long_url}";
-$result = @json_decode(file_get_contents($api_url),true);
-$ok=$result["status"];
-if ($ok=="error"){
-	die($ok);
-}else{ echo  $green."\033[1;97m》》》\033[1;32mLink Key Free:".$trang.$result["shortenedUrl"];echo "\n";}
-
+$result = @json_decode(file_get_contents($api_url), true);
+$checkkey = file_get_contents("https://thaihao.tk/keytoolfree.php?key=$key");
+$d = date("d-m");
+$_check = file_exists("keytoolfreennq$d.txt");
+echo $kitu."Link Lấy Key Free: \033[1;97m".$result["shortenedUrl"]."\n";
  
-echo "\033[1;97m》》》\033[1;32mMua Key Vip Liên Hệ Admin\n";
-echo"\033[1;97m》》》\033[1;32mNHẬP KEY : $trang";
-$kkey = trim(fgets(STDIN));
-if ($kkey == $da2){
- echo "Keyy Đúng"; 
-} else {
-   echo "$do key Sai";exit;}
+if ($_check !='1'){
+$gh = date("d-m", strtotime("yesterday"));
+$yt = "keytoolfreennq$gh.txt";
+$_check2 = file_exists("$yt");
+if($_check2==1){
+  unlink("$yt");
+}
+for($j = 3;$j> 0;$j--){
+  echo $kitu."Chuyển Hướng Đến Trang Lấy Key Sau \033[1;97m".$j;
+  sleep(1);
+  echo "\r";
+  echo "                                          \r";
+}
+system("termux-open-url ".$result["shortenedUrl"]."");
+echo $BWhite."- - - - - - - - - - - - - - - - - - - - - - - - - - - -\n";
+     
+echo $kitu."Nhập Key: \033[1;97m";
+    $keyy = trim(fgets(STDIN));
+    }
+if ($_check =='1'){
+  $keyy = file_get_contents("keytoolfreennq$d.txt");
+  $vt = 1;
+  echo $kitu."Đang Lấy Key...";
+  sleep(2);
+  echo "\r                                         \r";
+}
+if($keyy == ''){
+  echo $kitu."Nhập Sai Key \n";
+  exit;
+}
+  if($keyy == $key)
+      {
+             echo $kitu."Key Hợp Lệ\n";
+             $mf = fopen("keytoolfreennq$d.txt", "w");
+             fwrite($mf, $keyy);
+             fclose($mf);
+      }
+      else
+      {
+           echo $BRed."Nhập Sai Key Rồi\n";
+           exit;
+      }
  @system('clear');
  echo $banner;
-print $trang."Vượt Link Cũng Là 1 Hình Thức Donate$luc •_•\n";
+print $trang."Vượt Link Cũng Là 1 Hình Thức Donate\n";
  
 
  print "$luc Nhập$trang 1$luc Tool Traodoisub Đa Token\n";usleep(400); 
