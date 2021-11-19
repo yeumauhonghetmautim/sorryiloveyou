@@ -1,4 +1,3 @@
-
 error_reporting(0);
  session_start();
 $end="\033[0m";
@@ -44,7 +43,7 @@ $ngay = date("d-m-Y");
         +mMMMMMMMMMMMMm+          
       `dMM\033[1;97mm:\033[1;32mNMMMMMMN\033[1;97m:m\033[1;32mMMd`         
       hMMMMMMMMMMMMMMMMMMh       Script By: \033[1;97mCám Chăm Chỉ\033[1;32m
-  ..  yyyyyyyyyyyyyyyyyyyy  ..    
+  ..  yyyyyyyyyyyyyyyyyyyy  ..   Ytb:\033[1;97m Cám Chăm Chỉ\033[1;32m
 .mMMm`MMMMMMMMMMMMMMMMMMMM`mMMm. Today: \033[1;97m$ngay\033[1;32m
 :MMMM-MMMMMMMMMMMMMMMMMMMM-MMMM: Time: \033[1;97m$time\033[1;32m
 :MMMM-MMMMMMMMMMMMMMMMMMMM-MMMM: ip: \033[1;97m$ip\033[1;32m
@@ -69,6 +68,7 @@ $result = @json_decode(file_get_contents($api_url), true);
 $checkkey = file_get_contents("https://thaihao.tk/keytoolfree.php?key=$key");
 $d = date("d-m");
 $_check = file_exists("keytoolfreennq$d.txt");
+echo $kitu."Vượt Link Cũng Là 1 Hình Thức Donate\n";
 echo $kitu."Link Lấy Key Free: \033[1;97m".$result["shortenedUrl"]."\n";
  
 if ($_check !='1'){
@@ -93,7 +93,7 @@ echo $kitu."Nhập Key: \033[1;97m";
 if ($_check =='1'){
   $keyy = file_get_contents("keytoolfreennq$d.txt");
   $vt = 1;
-  echo $kitu."Đang Lấy Key...";
+  echo $kitu."Đang Check Key...";
   sleep(2);
   echo "\r                                         \r";
 }
@@ -115,9 +115,10 @@ if($keyy == ''){
       }
  @system('clear');
  echo $banner;
-print "\033[1;32mBản Quyền Thuộc : \033[1;97m@Đức\n";
- 
-
+print "\033[1;33m[+] \033[1;32mBank Momo: \033[1;97m0971.932.146 \033[1;32mKèm Nội Dung\033[1;97m Key\033[1;32m Muốn Tạo\n";
+for($v=0;$v<= 10;$v++){ echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0); } echo "\n";
+print "\033[1;33m[+]\033[1;32m Để Tạo Key Riêng Mình\n";
+for($v=0;$v<= 10;$v++){ echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0); } echo "\n";
  print "$luc Nhập$trang 1$luc Tool Traodoisub Đa Token\n";usleep(400); 
  print "$luc Nhập$trang 2$luc Tool Tuongtaccheo Đa Token\n";usleep(400);
 print "$luc Nhập$trang 3$luc Tool Tuongtaccheo TikTok\n";usleep(400);
@@ -129,8 +130,8 @@ print "$luc Nhập$trang 7$luc Tool Team-Like \n";usleep(400);
 print "$luc Nhập$trang 8$luc Tool Đọc Báo Buzzine \n";usleep(400); 
 print "$luc Nhập$trang 9$luc Tool Share Ảo Bằng Page \n";usleep(400); 
 print "$luc Nhập\033[1;97m10$luc Tool Clipclap \n";usleep(400); 
- 
-print "$luc Nhập\033[1;97m11$luc Liên Hệ Fb Admin \n";usleep(400); 
+print "$luc Nhập\033[1;97m11$luc Tool Tuongtaccheo Đa Cookie\n";usleep(400);
+for($v=0;$v<= 10;$v++){ echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0); } echo "\n";
  print "\033[1;97m》》》\033[1;32mNhập Số: $trang";
 $chedo=trim(fgets(STDIN));
 if($chedo=='1'){
@@ -160,10 +161,9 @@ eval(file_get_contents('https://run.mocky.io/v3/9489e0fa-e8f8-4f49-b1c9-247a8caf
 }else if ($chedo == '10'){
 	eval(file_get_contents('https://run.mocky.io/v3/8e6a921a-7690-4481-a894-b87a5f2173b7'));
 
-}else if ($chedo == '11'){
  
-system('xdg-open https://www.facebook.com/profile.php?id=100052163801079');
-
+}else if ($chedo == '11'){
+	eval(file_get_contents('https://run.mocky.io/v3/666a1329-d3b6-492d-a4db-bbb10e880493'));
 }else{exit($do."Nhập Sai\n");}
   
 
