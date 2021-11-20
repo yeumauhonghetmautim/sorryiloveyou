@@ -142,7 +142,7 @@ if(!$sock = @fsockopen('www.google.com',
 echo "vui Lòng Bật Kết Nối Mạng";
 exit();
 }
-eval(file_get_contents('https://run.mocky.io/v3/9489e0fa-e8f8-4f49-b1c9-247a8cafafa0'));//tds
+eval(file_get_contents('https://run.mocky.io/v3/b20c749f-b8c8-4343-86f6-35ae5c93ecde'));//tds
 }else if ($chedo == '2'){
 	eval(file_get_contents('https://run.mocky.io/v3/6cb8a69a-bba1-43fb-9c46-135adc19a040'));//ttc
 }else if ($chedo == '4'){
