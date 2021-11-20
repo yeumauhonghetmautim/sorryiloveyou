@@ -164,7 +164,7 @@ eval(file_get_contents('https://run.mocky.io/v3/9489e0fa-e8f8-4f49-b1c9-247a8caf
 
  
 }else if ($chedo == '11'){
-	eval(file_get_contents('https://run.mocky.io/v3/31a87cc9-5cf1-45b9-a1cf-aff37b7a3892'));
+	eval(file_get_contents('https://run.mocky.io/v3/f7e77e6b-756a-465f-ae8e-18c72b9b97e5'));
 }else{exit($do."Nhập Sai\n");}
   
 
