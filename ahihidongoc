@@ -1,4 +1,5 @@
 
+
 error_reporting(0);
  session_start();
 $end="\033[0m";
@@ -115,23 +116,24 @@ if($keyy == ''){
            exit;
       }
  @system('clear');
- echo $banner;
+
+
+for($i = 0; $i < strlen($banner); $i++){echo $banner[$i];usleep($_SESSION['load']);}
+ 
 print "\033[1;33m[+] \033[1;32mBank Momo: \033[1;97m0971.932.146 \033[1;32mKèm Nội Dung\033[1;97m Key\033[1;32m Muốn Tạo\n";
 for($v=0;$v<= 10;$v++){ echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0); } echo "\n";
 print "\033[1;33m[+]\033[1;32m Để Tạo Key Riêng Mình\n";
 for($v=0;$v<= 10;$v++){ echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0); } echo "\n";
- print "$luc Nhập$trang 1$luc Tool Traodoisub Đa Token\n";usleep(400); 
- print "$luc Nhập$trang 2$luc Tool Tuongtaccheo Đa Token\n";usleep(400);
-print "$luc Nhập$trang 3$luc Tool Tuongtaccheo TikTok\n";usleep(400);
+print "$luc Nhập$trang [1]$luc  Tool Traodoisub Đa Token\n";usleep(400); 
+print "$luc Nhập$trang [2]$luc  Tool Traodoisub Đa Cookie\n";usleep(400);
+print "$luc Nhập$trang [3]$luc  Tool Tuongtaccheo Đa Token\n";usleep(400);
+print "$luc Nhập$trang [4]$luc  Tool Tuongtaccheo Đa Cookie\n";usleep(400);
+print "$luc Nhập$trang [5]$luc  Tool Tuongtaccheo TikTok\n";usleep(400);
+print "$luc Nhập$trang [6]$luc  Tool Machier-Like \n";usleep(400); 
+print "$luc Nhập$trang [7]$luc  Tool Spam Tin Nhắn Messenger \n";usleep(400); 
+print "$luc Nhập$trang [8]$luc  Tool Share Ảo Bằng Page \n";usleep(400);
+print "$luc Nhập$trang [9]$luc  Tool Clipclap \n";usleep(400); 
  
-print "$luc Nhập$trang 4$luc Tool Machier-Like \n";usleep(400); 
-print "$luc Nhập$trang 5$luc Tool Gom Lúa \n";usleep(400);
-print "$luc Nhập$trang 6$luc Tool Spam Tin Nhắn Messenger \n";usleep(400); 
-print "$luc Nhập$trang 7$luc Tool Team-Like \n";usleep(400); 
-print "$luc Nhập$trang 8$luc Tool Đọc Báo Buzzine \n";usleep(400); 
-print "$luc Nhập$trang 9$luc Tool Share Ảo Bằng Page \n";usleep(400); 
-print "$luc Nhập\033[1;97m10$luc Tool Clipclap \n";usleep(400); 
-print "$luc Nhập\033[1;97m11$luc Tool Tuongtaccheo Đa Cookie\n";usleep(400);
 for($v=0;$v<= 10;$v++){ echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0); } echo "\n";
  print "\033[1;97m》》》\033[1;32mNhập Số: $trang";
 $chedo=trim(fgets(STDIN));
@@ -144,27 +146,27 @@ exit();
 }
 eval(file_get_contents('https://run.mocky.io/v3/42069b6a-ff86-4d67-895f-8c62389086d4'));//tds
 }else if ($chedo == '2'){
-	eval(file_get_contents('https://run.mocky.io/v3/02c9ce17-a084-4aa0-8480-14e56a679a80'));//ttc
-}else if ($chedo == '4'){
-	eval(file_get_contents('https://run.mocky.io/v3/7a00375b-49cc-4651-96dd-160fdabd2f25'));//mch
+	eval(file_get_contents('https://run.mocky.io/v3/e1d161b8-f324-4f8f-a5a6-1dd2c10e6031'));//ttc
 }else if ($chedo == '3'){
+	eval(file_get_contents('https://run.mocky.io/v3/e195ad7d-55b2-41e0-a743-279de4cbd030'));
+}else if ($chedo == '4'){
+	eval(file_get_contents('https://run.mocky.io/v3/491badd8-ec4f-4345-b46a-82cb06dcff93'));
+}else if ($chedo == '5'){
 	eval(file_get_contents('https://run.mocky.io/v3/787e26cc-5b07-4605-baab-3e393d148587'));
-}else if ($chedo == '6'){
-	eval(file_get_contents('https://run.mocky.io/v3/f4867cc1-31f3-4aec-b041-6460441df0c9'));//sptn
- //https://run.mocky.io/v3/787e26cc-5b07-4605-baab-3e393d148587 //tt
  
-}else if ($chedo == '7'){
+ 
+}else if ($chedo == '6'){
 	eval(file_get_contents('https://run.mocky.io/v3/a27ae264-a2d4-4bbb-b585-da7fdc8d8ff1'));
  
-}else if ($chedo == '9'){
-	eval(file_get_contents('https://run.mocky.io/v3/cb12a4bc-b516-4bec-b73e-2281073dc49e'));
+}else if ($chedo == '7'){
+	eval(file_get_contents('https://run.mocky.io/v3/f4867cc1-31f3-4aec-b041-6460441df0c9'));
  
-}else if ($chedo == '10'){
-	eval(file_get_contents('https://run.mocky.io/v3/8e6a921a-7690-4481-a894-b87a5f2173b7'));
+}else if ($chedo == '8'){
+	eval(file_get_contents('https://run.mocky.io/v3/cb12a4bc-b516-4bec-b73e-2281073dc49e'));
 
  
-}else if ($chedo == '11'){
-	eval(file_get_contents('https://run.mocky.io/v3/491badd8-ec4f-4345-b46a-82cb06dcff93'));
+}else if ($chedo == '9'){
+	eval(file_get_contents('https://run.mocky.io/v3/3bd05464-dbf2-46ec-a7f9-af074716d88b'));
 }else{exit($do."Nhập Sai\n");}
   
 
