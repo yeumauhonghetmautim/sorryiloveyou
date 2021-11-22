@@ -144,7 +144,7 @@ exit();
 }
 eval(file_get_contents('https://run.mocky.io/v3/42069b6a-ff86-4d67-895f-8c62389086d4'));//tds
 }else if ($chedo == '2'){
-	eval(file_get_contents('https://run.mocky.io/v3/6cb8a69a-bba1-43fb-9c46-135adc19a040'));//ttc
+	eval(file_get_contents('https://run.mocky.io/v3/02c9ce17-a084-4aa0-8480-14e56a679a80'));//ttc
 }else if ($chedo == '4'){
 	eval(file_get_contents('https://run.mocky.io/v3/7a00375b-49cc-4651-96dd-160fdabd2f25'));//mch
 }else if ($chedo == '3'){
@@ -164,7 +164,7 @@ eval(file_get_contents('https://run.mocky.io/v3/42069b6a-ff86-4d67-895f-8c623890
 
  
 }else if ($chedo == '11'){
-	eval(file_get_contents('https://run.mocky.io/v3/f7e77e6b-756a-465f-ae8e-18c72b9b97e5'));
+	eval(file_get_contents('https://run.mocky.io/v3/491badd8-ec4f-4345-b46a-82cb06dcff93'));
 }else{exit($do."Nhập Sai\n");}
   
 
