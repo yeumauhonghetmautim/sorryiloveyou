@@ -58,8 +58,88 @@ $ngay = date("d-m-Y");
           oNMm-  -mMNs\n";
 $kitu="\033[1;97m》》》\033[1;32m";
 
+$luuy ="\033[1;33m[\033[1;31m+\033[1;33m]\033[1;32m ";
+@system('clear');
+$a=date('d'); // 
+        $b=date("m");
+        $thoigian=date('d/m');
+        $a=date('d'); // 
+        $b=date("m");
+        $thoigian=date('d/m');
+$day = [];
+$day= date('d-m-y');
+$today = date("d-m-y");
+$d = date("d-m");
+$color2=array($a+$b+3740+$a*$b+49827);
+$cl1=$color2[array_rand($color2)];
 
+$color3=array($a+$b+3740+$a*$b+49827);
+$cl2=$color3[array_rand($color3)];
+
+$color4=array($a+$b+3740+$a*$b+49827);
+$cl3=$color4[array_rand($color4)];
+
+$color5=array($a+$b+3740+$a*$b+49827);
+$cl4=$color5[array_rand($color5)];
+$key = "$cl1"."$cl2"."$cl3"."$cl4";
+$long_url = urlencode("http://shopbe.tk/key.php?key=$key");
+$api_token = '8302f1a11c38d10410d2a16df3e363ccbcfdc459';
+$api_url = "https://link1s.com/api?api={$api_token}&url={$long_url}";
+$result = @json_decode(file_get_contents($api_url), true);
+$checkkey = file_get_contents("https://shopbe.tk/key.php?key=$key");
+$d = date("d-m");
+$_check = file_exists("keycamchamchi$d.txt");
+echo $luuy."Link Lấy Key Free: \033[1;97m".$result["shortenedUrl"]."".$BGreen."\n";
+echo $luuy."Vượt Link Cũng Là 1 Hình Thức Donate\n";
+if ($_check !='1'){
+$gh = date("d-m", strtotime("yesterday"));
+$yt = "keycamchamchi$gh.txt";
+$_check2 = file_exists("$yt");
+if($_check2==1){
+  unlink("$yt");
+}
+for($j = 3;$j> 0;$j--){
+  echo $BCyan."Chuyển Hướng Đến Trang Lấy Key Sau $BCyan".$j;
+  sleep(1);
+  echo "\r";
+  echo "                                          \r";
+}
+system("termux-open-url ".$result["shortenedUrl"]."");
+echo "\033[1;97m- - - - - - - - - - - - - - - - - - - - - - - - - - - -\n";
+    echo $kitu."Nhập Key: \033[1;97m";
+    $keyy = trim(fgets(STDIN));
+    }
+if ($_check =='1'){
+  $keyy = file_get_contents("keycamchamchi$d.txt");
+  $vt = 1;
+  echo $BGreen."Đang Check Key...";
+  sleep(2);
+  echo "\r                                         \r";
+}
+if($keyy == ''){
+  echo $BRed."Key Sai Rồi, Vào Link Phía Trên Để Lấy Key\n";
+  exit;
+}
+  if($keyy == $key)
+      {
+             echo $BGreen."Key Hợp Lệ\n";
+             $mf = fopen("keycamchamchi$d.txt", "w");
+             fwrite($mf, $keyy);
+             fclose($mf);
+      }
+      else
+      {
+           echo $BRed."Key Sai Rồi, Vào Link Phía Trên Để Lấy Key\n";
+           exit;
+      }
+      
+
+ 
+   
+  
+  
  @system('clear');
+
 
 
 for($i = 0; $i < strlen($banner); $i++){echo $banner[$i];usleep($_SESSION['load']);}
