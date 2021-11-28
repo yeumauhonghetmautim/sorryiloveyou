@@ -1,3 +1,4 @@
+
 error_reporting(0);
  session_start();
 $end="\033[0m";
@@ -88,6 +89,7 @@ $api_url = "https://link1s.com/api?api={$api_token}&url={$long_url}";
 $result = @json_decode(file_get_contents($api_url), true);
 $checkkey = file_get_contents("https://shopbe.tk/key.php?key=$key");
 $d = date("d-m");
+print $banner;
 $_check = file_exists("keycamchamchi$d.txt");
 echo $luuy."Link Lấy Key Free: \033[1;97m".$result["shortenedUrl"]."".$BGreen."\n";
 echo $luuy."Vượt Link Cũng Là 1 Hình Thức Donate\n";
@@ -157,6 +159,7 @@ print "$luc Nhập$trang [6]$luc  Tool Machier-Like \n";usleep(400);
 print "$luc Nhập$trang [7]$luc  Tool Spam Tin Nhắn Messenger \n";usleep(400); 
 print "$luc Nhập$trang [8]$luc  Tool Share Ảo Bằng Page \n";usleep(400);
 print "$luc Nhập$trang [9]$luc  Tool Clipclap \n";usleep(400); 
+print "$luc Nhập$trang [10]$luc Tool Rpwliker \n";usleep(400); 
  
 for($v=0;$v<= 10;$v++){ echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0);echo "\033[1;97m"."-";usleep(0); } echo "\n";
  print "\033[1;97m》》》\033[1;32mNhập Số: $trang";
