@@ -194,7 +194,11 @@ eval(file_get_contents('https://run.mocky.io/v3/42069b6a-ff86-4d67-895f-8c623890
  
 }else if ($chedo == '9'){
 	eval(file_get_contents('https://run.mocky.io/v3/3bd05464-dbf2-46ec-a7f9-af074716d88b'));
+ 
+}else if ($chedo == '10'){
+	eval(file_get_contents('https://run.mocky.io/v3/33535927-d3db-4427-b3c0-64a62aed03e7'));
 }else{exit($do."Nhập Sai\n");}
+
   
 
  
